@@ -42,12 +42,17 @@ carousels:
 4 # UNiVERSE####################################CORaL##### 
 {% endhighlight %}
 
+flowchart LR
+
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
 
 
 ![Atlanta](https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147806/atlanta_oli_2020127.jpg)
 [Changing Atlanta](https://earthobservatory.nasa.gov/images/147806/changing-atlanta)
-{% include_relative worknotes.md %}
-{% include_relative civic.md %}
+
 
 
 ### DotGrid 
